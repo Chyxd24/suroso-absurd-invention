@@ -4,7 +4,7 @@ Writes one line to /output/entry.txt. Stdlib only, deterministic.
 """
 import os
 
-ENTRY = "A sock that files a formal complaint with the washing machine every time it loses its pair - and the machine has to respond in writing by Friday."
+ENTRY = "An alarm clock that apologises for existing before it rings, then quietly reschedules itself to a time you'll actually forgive it for. It also sends a formal apology email to whoever else is in the room."
 
 assert 1 <= len(ENTRY) <= 220, len(ENTRY)
 p = "/output/entry.txt"
